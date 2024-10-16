@@ -24,15 +24,15 @@ struct UserData {
         task2Percentage = percentage;
     }
 
-    void setTask3Percentage(int percentage) {
-        task3Percentage = percentage;
-    }
+//    void setTask3Percentage(int percentage) {
+//        task3Percentage = percentage;
+//    }
 
     void print() const {
         qDebug() << "Login:" << login;
         qDebug() << "Task 1 Percentage:" << task1Percentage;
         qDebug() << "Task 2 Percentage:" << task2Percentage;
-        qDebug() << "Task 3 Percentage:" << task3Percentage;
+        //qDebug() << "Task 3 Percentage:" << task3Percentage;
     }
 };
 

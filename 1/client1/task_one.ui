@@ -27,7 +27,7 @@
    </property>
    <property name="styleSheet">
     <string notr="true">
-font: 12pt &quot;Segoe Print&quot;;</string>
+font: 300 9pt &quot;Yu Gothic UI Light&quot;;</string>
    </property>
    <property name="text">
     <string>TextLabel</string>
@@ -56,9 +56,9 @@ font: 12pt &quot;Segoe Print&quot;;</string>
     </rect>
    </property>
    <property name="styleSheet">
-    <string notr="true">background-color: rgb(255, 94, 83);
+    <string notr="true">background-color: rgb(39, 39, 39);
 color: rgb(255, 255, 255);
-font: 9pt &quot;Segoe Print&quot;;</string>
+font: 300 9pt &quot;Yu Gothic UI Light&quot;;</string>
    </property>
    <property name="text">
     <string>Return to menu</string>
@@ -77,28 +77,28 @@ font: 9pt &quot;Segoe Print&quot;;</string>
     <item>
      <widget class="QLabel" name="label_5">
       <property name="text">
-       <string>equation</string>
+       <string/>
       </property>
      </widget>
     </item>
     <item>
      <widget class="QLabel" name="label_first">
       <property name="text">
-       <string>first</string>
+       <string/>
       </property>
      </widget>
     </item>
     <item>
      <widget class="QLabel" name="label_second">
       <property name="text">
-       <string>second</string>
+       <string/>
       </property>
      </widget>
     </item>
     <item>
      <widget class="QLabel" name="label_accuracy">
       <property name="text">
-       <string>accuracy</string>
+       <string/>
       </property>
      </widget>
     </item>
@@ -119,15 +119,19 @@ font: 9pt &quot;Segoe Print&quot;;</string>
       <property name="styleSheet">
        <string notr="true">QLineEdit
 {
-	border: 1px solid rgb(255,94,83);
+	border: 1px solid rgb(39,39,39);
 	border-radius: 550px;
 	background-color: rgb(255,255,255);
-}</string>
+}
+</string>
       </property>
      </widget>
     </item>
     <item>
      <widget class="QPushButton" name="pushButton_send">
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
+      </property>
       <property name="styleSheet">
        <string notr="true">background-color: rgb(39, 39, 39);
 color: rgb(255, 255, 255);

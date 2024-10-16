@@ -22,8 +22,7 @@ HEADERS += \
     functionsforclient.h \
     mainwindow.h \
     singletonclient.h \
-    task_one.h \
-    user_data.h
+    task_one.h
 
 FORMS += \
     authregform.ui \

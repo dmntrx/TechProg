@@ -47,16 +47,16 @@ public:
         label_task->setObjectName("label_task");
         label_task->setGeometry(QRect(20, 10, 121, 21));
         label_task->setStyleSheet(QString::fromUtf8("\n"
-"font: 12pt \"Segoe Print\";"));
+"font: 300 9pt \"Yu Gothic UI Light\";"));
         label = new QLabel(task_one);
         label->setObjectName("label");
         label->setGeometry(QRect(10, 340, 141, 20));
         pushButton_return = new QPushButton(task_one);
         pushButton_return->setObjectName("pushButton_return");
         pushButton_return->setGeometry(QRect(10, 240, 121, 29));
-        pushButton_return->setStyleSheet(QString::fromUtf8("background-color: rgb(255, 94, 83);\n"
+        pushButton_return->setStyleSheet(QString::fromUtf8("background-color: rgb(39, 39, 39);\n"
 "color: rgb(255, 255, 255);\n"
-"font: 9pt \"Segoe Print\";"));
+"font: 300 9pt \"Yu Gothic UI Light\";"));
         verticalLayoutWidget = new QWidget(task_one);
         verticalLayoutWidget->setObjectName("verticalLayoutWidget");
         verticalLayoutWidget->setGeometry(QRect(10, 50, 281, 103));
@@ -93,10 +93,11 @@ public:
         lineEdit_answer->setObjectName("lineEdit_answer");
         lineEdit_answer->setStyleSheet(QString::fromUtf8("QLineEdit\n"
 "{\n"
-"	border: 1px solid rgb(255,94,83);\n"
+"	border: 1px solid rgb(39,39,39);\n"
 "	border-radius: 550px;\n"
 "	background-color: rgb(255,255,255);\n"
-"}"));
+"}\n"
+""));
 
         horizontalLayout->addWidget(lineEdit_answer);
 
@@ -120,10 +121,10 @@ public:
         label_task->setText(QCoreApplication::translate("task_one", "TextLabel", nullptr));
         label->setText(QString());
         pushButton_return->setText(QCoreApplication::translate("task_one", "Return to menu", nullptr));
-        label_5->setText(QCoreApplication::translate("task_one", "equation", nullptr));
-        label_first->setText(QCoreApplication::translate("task_one", "first", nullptr));
-        label_second->setText(QCoreApplication::translate("task_one", "second", nullptr));
-        label_accuracy->setText(QCoreApplication::translate("task_one", "accuracy", nullptr));
+        label_5->setText(QString());
+        label_first->setText(QString());
+        label_second->setText(QString());
+        label_accuracy->setText(QString());
         pushButton_send->setText(QCoreApplication::translate("task_one", "Send", nullptr));
     } // retranslateUi
 

@@ -7,7 +7,7 @@
 *****************************************************************************/
 
 #include <memory>
-#include "../../TiMp_Fenris-Client/singletonclient.h"
+#include "../../client1/singletonclient.h"
 #include <QtNetwork/QSslPreSharedKeyAuthenticator>
 #include <QtNetwork/QSslError>
 #include <QtCore/qmetatype.h>

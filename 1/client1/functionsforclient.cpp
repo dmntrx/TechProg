@@ -56,19 +56,12 @@ void FunctionsForClient::task_clicked(int i)
     task->show();
 }
 
-void FunctionsForClient::stat_clicked()
-{
-    mainForm->hide();
-    if(task==nullptr)
-        task =new task_one();
-    task->set_task_stat();
-    task->show();
-}
 
-void FunctionsForClient::send_clicked(int i)
-{
-    task->check_plus(i);
-}
+
+//void FunctionsForClient::send_clicked(int i)
+//{
+//    task->check_plus(i);
+//}
 
 
 

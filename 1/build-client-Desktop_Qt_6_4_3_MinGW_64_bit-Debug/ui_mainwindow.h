@@ -89,7 +89,7 @@ public:
     {
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
         pushButton_Task_1->setText(QCoreApplication::translate("MainWindow", "Task 1 - Newton Method", nullptr));
-        pushButton_Task_2->setText(QCoreApplication::translate("MainWindow", "Task 2", nullptr));
+        pushButton_Task_2->setText(QCoreApplication::translate("MainWindow", "Task 2 - Music File", nullptr));
         pushButton_4->setText(QCoreApplication::translate("MainWindow", "Exit", nullptr));
     } // retranslateUi
 

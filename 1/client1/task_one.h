@@ -15,13 +15,13 @@ public:
     explicit task_one(QWidget *parent = nullptr);
     ~task_one();
     void set_task_number(int i); // v podstate budeme len hladat cislo tasku a potom budeme ukazovat day text v sulade s zadanim
-    void set_task_stat();
-    void check_plus(int i);
-    void show_statistic(QString answer);
+    //void set_task_stat();
+    //void check_plus(int i);
+    //void show_statistic(QString answer);
 
 
 private slots:
-    void on_pushButton_send_clicked();
+    //void on_pushButton_send_clicked();
     void on_pushButton_return_clicked();
 
 private:

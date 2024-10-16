@@ -47,12 +47,12 @@ void AuthRegForm::handleAuthResponse(const QString& response)
     else if(parts.size() > 0 && parts[0] == "reg+") {
         on_pushButton_auth_clicked();
     }
-    else if (parts.size() > 0 && parts[0] == "check+") {
-        FunctionsForClient::send_clicked(1);
-    }
-    else if (parts.size() > 0 && parts[0] == "check-") {
-        FunctionsForClient::send_clicked(0);
-    }
+//    else if (parts.size() > 0 && parts[0] == "check+") {
+//        FunctionsForClient::send_clicked(1);
+//    }
+//    else if (parts.size() > 0 && parts[0] == "check-") {
+//        FunctionsForClient::send_clicked(0);
+//    }
 
     else
     {
